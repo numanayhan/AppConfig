@@ -1,0 +1,25 @@
+//
+//  Dev.xcconfig
+//  AppConfig
+//
+//  Created by nayhan on 21.04.2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Backward Compatible Values
+IS_PRODUCTION = NO
+ENV_NAME = staging
+
+// Overriding (do NOT change key name)
+// app name
+PRODUCT_NAME = AppConfig Dev// $(ENV_NAME)
+// bundle id
+APP_BUNDLE_IDENTIFIER = com.hrdijital.kaptan.$(ENV_NAME)
+// app icon
+APPICON_NAME = AppIcon_PassProduction
+// app version
+MARKETING_VERSION = 1.0.0
+// build number
+CURRENT_PROJECT_VERSION = 1
