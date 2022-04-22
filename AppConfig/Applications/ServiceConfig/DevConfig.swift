@@ -17,9 +17,6 @@ class DevConfig {
         #if DEV
         self.baseUrl = TestUrl.DEV.rawValue
         #endif
-        
-        #if LOCAL
-        print("local")
-        #endif
+         
     }
 }

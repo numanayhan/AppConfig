@@ -35,7 +35,7 @@ class Launch: UIViewController {
     }
     func setLayout(){
         let appName = Bundle.main.object(forInfoDictionaryKey: "PRODUCT_NAME") as? String
-        print("PRODUCT_NAME", appName!)
+        print("name:", appName!)
         logo.text = appName
         view.backgroundColor = .black
         view.addSubview(logo)

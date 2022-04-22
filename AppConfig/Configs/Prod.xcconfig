@@ -14,9 +14,10 @@ ENV_NAME = staging
 
 // Overriding (do NOT change key name)
 // app name
+APP_NAME = AppConfig
 PRODUCT_NAME = AppConfig// $(ENV_NAME)
 // bundle id
-APP_BUNDLE_IDENTIFIER = com.hrdijital.kaptan.$(ENV_NAME)
+//APP_BUNDLE_IDENTIFIER = com.hrdijital.$(ENV_NAME)
 // app icon
 APPICON_NAME = AppIcon_PassProduction
 // app version
